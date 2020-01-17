@@ -1,0 +1,14 @@
+.bodyContact {
+    min-height: 85vh;
+    display: flex;
+    background-color: rgb(60, 86, 112);
+}
+
+.contact {
+    margin: auto;
+}
+
+.msgContact {
+    color: white;
+    margin: 0;
+}

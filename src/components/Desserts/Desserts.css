@@ -1,0 +1,47 @@
+.bodyDesserts {
+    min-height: 85vh;
+    display: flex;
+    background-color: rgb(60, 86, 112);
+    display: flex;
+    flex-direction: column;
+}
+
+.searchBar {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.inputSearchBar {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.bodyListeDesserts {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-image: url('../../img/dessert1.jpeg');
+    background-size: cover;
+    width: 75vw;
+    height: 20vh;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20vh;
+}
+
+@media screen and (min-width: 640px) {
+    .bodyListeDesserts {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 2%;
+    }
+    .card {
+        width: 45vw;
+    }
+}
