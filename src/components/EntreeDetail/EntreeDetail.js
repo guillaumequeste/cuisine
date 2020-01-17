@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Header from '../Header'
 import Footer from '../Footer'
-import './EntreeDetail.css'
+import '../Detail.css'
 
 
 const entrees = {
@@ -51,20 +51,31 @@ class EntreeDetail extends Component {
             <div>
                 <Header />
                 <div className="fiche">
-                    <div className="image">
-                        <img src={requireImage(entrees[this.props.match.params.id].image)} className="tailleImage" alt={this.props.match.params.titre}/>
+                    <div className="part1">
+                        <div className="part1a">
+                            <div className="titreRecette">
+                                {entrees[this.props.match.params.id].titre}
+                            </div>
+                            <div className="image">
+                                <img src={requireImage(entrees[this.props.match.params.id].image)} className="tailleImage" alt={this.props.match.params.titre}/>
+                            </div>
+                        </div>
+                        <div className="part1b">
+                            <ul>
+                                <li className="liCard"><strong>Nombre de personnes : </strong>{entrees[this.props.match.params.id].nbPersonnes}</li>
+                                <li className="liCard"><strong>Temps total : </strong>{entrees[this.props.match.params.id].tempsTotal}</li>
+                                    <ul>
+                                        <li className="liCard2"><strong>Temps de préparation : </strong>{entrees[this.props.match.params.id].tempsPreparation}</li>
+                                        <li className="liCard2"><strong>Temps de cuisson : </strong>{entrees[this.props.match.params.id].tempsCuisson}</li>
+                                    </ul>
+                            </ul>
+                        </div>
                     </div>
-                    <div className="description">
-                        <h2 className="titreCard">{entrees[this.props.match.params.id].titre}</h2>
-                        <ul>
-                            <li className="liCard"><strong>Titre : </strong>{entrees[this.props.match.params.id].titre}</li>
-                            <li className="liCard"><strong>Nombre de personnes : </strong>{entrees[this.props.match.params.id].nbPersonnes}</li>
-                            <li className="liCard"><strong>Ingrédients : </strong>{entrees[this.props.match.params.id].ingredients}</li>
-                            <li className="liCard"><strong>Temps total : </strong>{entrees[this.props.match.params.id].tempsTotal}</li>
-                            <li className="liCard"><strong>Temps de préparation : </strong>{entrees[this.props.match.params.id].tempsPreparation}</li>
-                            <li className="liCard"><strong>Temps de cuisson : </strong>{entrees[this.props.match.params.id].tempsCuisson}</li>
-                            <li className="liCard"><strong>Préparation : </strong>{entrees[this.props.match.params.id].preparation}</li>
-                        </ul>
+                    <div className="part2">
+                        <li className="liCard"><strong>Ingrédients :</strong></li>
+                        <li className="liCard3">{entrees[this.props.match.params.id].ingredients}</li>
+                        <li className="liCard"><strong>Préparation : </strong></li>
+                        <li className="liCard3">{entrees[this.props.match.params.id].preparation}</li>
                     </div>
                 </div>
                 <Footer />

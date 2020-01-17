@@ -10,14 +10,11 @@
     margin-left: 5%;
     text-decoration: none;
     font-weight: bold;
-}
-
-.itemReal {
-    display: none;
+    font-size: 0.8rem;
 }
 
 @media screen and (min-width: 1000px) {
-    .itemReal {
-        display: inline-block;
+    .itemsHeader {
+        font-size: 1rem;
     }
 }

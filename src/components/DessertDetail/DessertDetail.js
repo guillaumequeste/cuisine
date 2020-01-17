@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Header from '../Header'
 import Footer from '../Footer'
-import './DessertDetail.css'
+import '../Detail.css'
 
 
 const desserts = {
@@ -77,7 +77,6 @@ class DessertDetail extends Component {
                         <li className="liCard"><strong>Préparation : </strong></li>
                         <li className="liCard3">{desserts[this.props.match.params.id].preparation}</li>
                     </div>
-                   
                 </div>
                 <Footer />
             </div>
