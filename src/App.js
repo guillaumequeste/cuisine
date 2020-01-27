@@ -8,14 +8,20 @@ const App = () => (
   <>
     <Header />
     <div className="app">
-      <div className="appCard">
-        <Link to="/entrees">Entrées</Link>
+      <div>
+        <Link to="/entrees" className="lien">
+          <div className="appCard">Entrées</div>
+        </Link>
       </div>
-      <div className="appCard">
-        <Link to="/plats">Plats</Link>
+      <div>
+        <Link to="/plats" className="lien">
+          <div className="appCard">Plats</div>
+        </Link>
       </div>
-      <div className="appCard">
-        <Link to="/desserts">Desserts</Link>
+      <div>
+        <Link to="/desserts" className="lien">
+          <div className="appCard">Desserts</div>
+        </Link>
       </div>
     </div>
     <Footer />

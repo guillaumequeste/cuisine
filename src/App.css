@@ -8,34 +8,51 @@ html {
 
 .app {
     width: 100%;
-    min-height: 75vh;
+    min-height: 85vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
+    padding-top: 2%;
     align-items: center;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 1025px) {
     .app {
         flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        background-image: url("./img/background.jpg");
+        background-size: cover;
     }
 }
 
 .appCard {
     width: 75vw;
     height: 20vh;
-    background-color: white;
+    background-color: grey;
     margin: 5% 0 5% 0;
     text-align: center;
     line-height: 20vh;
     border-radius: 5px;
+    font-size: 3rem;
 }
 
-@media screen and (min-width: 640px) {
+.appCard:hover {
+    background-color: rgb(182, 182, 182);
+    color: black;
+}
+
+@media screen and (min-width: 1025px) {
     .appCard {
         width: 30vw;
-        height: 30vh;
-        line-height: 30vh;
+        height: 25vh;
+        line-height: 25vh;
         margin: 0 2% 0 2%;
+        font-size: 3rem;
     }
+}
+
+.lien {
+    color: white;
+    text-decoration: none;
 }
