@@ -1,0 +1,76 @@
+.bodyListe {
+    min-height: 85vh;
+    display: flex;
+    background-color: rgb(60, 86, 112);
+    display: flex;
+    flex-direction: column;
+}
+
+.bgEntree {
+    background-image: url("../img/bgEntree.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.bgPlat {
+    background-image: url("../img/bgPlat.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.bgDessert {
+    background-image: url("../img/bgDessert.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.searchBar {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.inputSearchBar {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.bodyListe2 {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: grey;
+    width: 75vw;
+    height: 20vh;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20vh;
+    font-size: 2rem;
+}
+
+.card:hover {
+    background-color: rgb(182, 182, 182);
+    color: black;
+}
+
+@media screen and (min-width: 1025px) {
+    .bodyListe2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 2%;
+    }
+    .card {
+        width: 45vw;
+        font-size: 3rem;
+    }
+}

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import Header from '../Header'
 import Footer from '../Footer'
 import plats from '../../data/plats.json'
-import './Plats.css'
+import '../Liste.css'
 
 class Plats extends Component {
     state = {
@@ -28,14 +28,14 @@ class Plats extends Component {
         return (
             <div>
                 <Header />
-                <div className="bodyPlats">
+                <div className="bodyListe bgPlat">
                     <div className="searchBar">
                         <input placeholder="Rechercher une recette" onChange={this.onchange} className="inputSearchBar"/>
                     </div>
-                    <div className="bodyListePlats">
+                    <div className="bodyListe2">
                             {filteredPlats.map(({id, name}) => (
                                 <Link to={`/plat/${id}`} 
-                                        key={id}>
+                                        key={id} className="lien">
                                     <div className="card">
                                         {name}
                                     </div>
