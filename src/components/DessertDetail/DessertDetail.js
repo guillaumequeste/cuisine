@@ -5,36 +5,16 @@ import '../Detail.css'
 
 
 const desserts = {
-    100: { 
-       titre: "dessert 1",
-       nbPersonnes: "4",
-       ingredients: "tomate, citron, crêpes",
-       tempsTotal: "30 min",
-       tempsPreparation: "20 min",
-       tempsCuisson: "10 min",
-       preparation: "1. Faire les crêpes. \n 2. Positionner plusieurs couches de crêpes et les garnir avec les différents éléments. \n 3. Déguster le plat.",
-       image: "dessert1.jpeg",
-     },
-     200: { 
-         titre: "dessert 2",
-         nbPersonnes: "4",
-         ingredients: "tomate, citron, crêpes",
-         tempsTotal: "30 min",
-         tempsPreparation: "20 min",
-         tempsCuisson: "10 min",
-         preparation: "première, deuxième, troisième",
-         image: "dessert1.jpg",
-       },
-     300: { 
-         titre: "dessert 3",
-         nbPersonnes: "4",
-         ingredients: "tomate, citron, crêpes",
-         tempsTotal: "30 min",
-         tempsPreparation: "20 min",
-         tempsCuisson: "10 min",
-         preparation: "première, deuxième, troisième",
-         image: "dessert1.jpg",
-       }
+    1600: { 
+       titre: "Pancakes",
+       nbPersonnes: "5 pancakes",
+       ingredients: "130g de préparation Aunt Jemima, 180mL de lait, 15mL d'huile neutre, 1 oeuf",
+       tempsTotal: "10 min",
+       tempsPreparation: "7 min",
+       tempsCuisson: "3 min",
+       preparation: "1. Mélanger le tout, sans battre, jusqu'à disparition des grumeaux. \n 2. Laisser reposer et s'épaissir la pâte pendant 1-2 minutes. \n 3. Faire chauffer une poêle à feu moyen doux (ou plaque électrique à 190°C). \n 4. Verser doucement la pâte dans la poêle chaude légèrement graissée pour former un pancake. \n 5. Faire cuire 1 minute 30 environ de chaque côté (retourner lorsque des bulles se forment et que la face prend une couleur marron-dorée).",
+       image: "pancakes.jpeg",
+     }
  }
 
 /* J'aimerais tout mettre dans le fichier films.json et faire appel à lui dans la class ci-dessous au lieu d'appeler const films au-dessus */ 

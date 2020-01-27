@@ -5,36 +5,16 @@ import '../Detail.css'
 
 
 const plats = {
-   100: { 
-      titre: "plat 1",
-      nbPersonnes: "4",
-      ingredients: "tomate, citron, crêpes",
-      tempsTotal: "30 min",
+   1600: { 
+      titre: "Poulet katsu - sauce tonkatsu",
+      nbPersonnes: "2",
+      ingredients: "Sauce tonkatsu : 2 cuillères à soupe de worcestershire, 2 cuillères à soupe de ketchup, 1 cuillère à soupe de sauce d'huître, 1 cuillère à café de sucre. Poule katsu : 2 blancs de poulet, sel, poivre, 1 cuillère à soupe d'ail en poudre, 2 cuillères à soupe de farine, 1 oeuf battu, 1ààg de chapelure japonaise ou panko, huile végétale pour la cuisson",
+      tempsTotal: "32 min",
       tempsPreparation: "20 min",
-      tempsCuisson: "10 min",
-      preparation: "1. Faire les crêpes. \n 2. Positionner plusieurs couches de crêpes et les garnir avec les différents éléments. \n 3. Déguster le plat.",
-      image: "plat1.jpg",
-    },
-    200: { 
-        titre: "plat 2",
-        nbPersonnes: "4",
-        ingredients: "tomate, citron, crêpes",
-        tempsTotal: "30 min",
-        tempsPreparation: "20 min",
-        tempsCuisson: "10 min",
-        preparation: "première, deuxième, troisième",
-        image: "plat2.jpg",
-      },
-    300: { 
-        titre: "plat 3",
-        nbPersonnes: "4",
-        ingredients: "tomate, citron, crêpes",
-        tempsTotal: "30 min",
-        tempsPreparation: "20 min",
-        tempsCuisson: "10 min",
-        preparation: "première, deuxième, troisième",
-        image: "plat3.jpg",
-      }
+      tempsCuisson: "12 min",
+      preparation: "1. Dans un bol, préparer la sauce tonkatsu. Rien de plus simple, mélanger tous les ingrédients ensemble et réserver au frais. \n 2. Rincer les blancs de poulet, sécher sur du papier absorbant. Assaisonner le poulet de sel, de poivre et d'ail en poudre. \n 3. Préparer dans des assiettes creuses, la farine d'un côté, la chapelure dans l'autre et enfin l'oeuf battu. Chauffer une poêle avec de l'huile, assez pour frire. Tremper d'abord le blanc dans la farine, puis dans l'oeuf battu, finir par la chapelure. Une fois que le blanc de poulet est bien recouvert, disposez-le dans la poêle. \n 4. Laisser cuire sur chaque face environ 5-7 minutes. Une fois que le poulet katsu est cuit, le couper en fines lamelles. Disposer sur une assiette et verser par dessus la sauce tonkatsu.",
+      image: "poulet_katsu.jpeg",
+    }
 }
 
 /* J'aimerais tout mettre dans le fichier films.json et faire appel à lui dans la class ci-dessous au lieu d'appeler const films au-dessus */ 

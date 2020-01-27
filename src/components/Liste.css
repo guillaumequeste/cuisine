@@ -54,7 +54,7 @@
     border-radius: 5px;
     text-align: center;
     line-height: 20vh;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .card:hover {
@@ -71,6 +71,6 @@
     }
     .card {
         width: 45vw;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
