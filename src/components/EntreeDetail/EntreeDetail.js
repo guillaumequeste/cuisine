@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Footer from '../Footer'
 import '../Detail.css'
+import Flip from 'react-reveal/Flip'
 
 
 const entrees = {
@@ -56,9 +57,11 @@ class EntreeDetail extends Component {
                             <div className="titreRecette">
                                 {entrees[this.props.match.params.id].titre}
                             </div>
-                            <div className="image">
-                                <img src={requireImage(entrees[this.props.match.params.id].image)} className="tailleImage" alt={this.props.match.params.titre}/>
-                            </div>
+                            <Flip top>
+                                <div className="image">
+                                    <img src={requireImage(entrees[this.props.match.params.id].image)} className="tailleImage" alt={this.props.match.params.titre}/>
+                                </div>
+                            </Flip>
                         </div>
                         <div className="part1b">
                             <ul>

@@ -31,12 +31,16 @@ html {
 .appCard {
     width: 75vw;
     height: 20vh;
-    background-color: grey;
     margin: 5% 0 5% 0;
     text-align: center;
     line-height: 20vh;
     border-radius: 5px;
     font-size: 3rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: black;
+    border: 0.1rem solid white;
 }
 
 .appCard:hover {

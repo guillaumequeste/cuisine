@@ -4,6 +4,7 @@ import Header from '../Header'
 import Footer from '../Footer'
 import desserts from '../../data/desserts.json'
 import '../Liste.css'
+import Flip from 'react-reveal/Flip'
 
 class Desserts extends Component {
     state = {
@@ -34,12 +35,14 @@ class Desserts extends Component {
                     </div>
                     <div className="bodyListe2">
                         {filteredDesserts.map(({id, name}) => (
-                            <Link to={`/dessert/${id}`} 
-                                    key={id} className="lien">
-                                <div className="card">
-                                    {name}
-                                </div>
-                            </Link>
+                            <Flip left key={id}>
+                                <Link to={`/dessert/${id}`} 
+                                      className="lien">
+                                    <div className="card">
+                                        {name}
+                                    </div>
+                                </Link>
+                            </Flip>
                         ))}
                     </div>
                 </div>

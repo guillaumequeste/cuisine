@@ -4,6 +4,7 @@ import Header from '../Header'
 import Footer from '../Footer'
 import entrees from '../../data/entrees.json'
 import '../Liste.css'
+import Flip from 'react-reveal/Flip'
 
 class Entrees extends Component {
     state = {
@@ -34,12 +35,14 @@ class Entrees extends Component {
                     </div>
                     <div className="bodyListe2">
                             {filteredEntrees.map(({id, name}) => (
-                                <Link to={`/entree/${id}`} 
-                                        key={id} className="lien">
-                                    <div className="card">
-                                        {name}
-                                    </div>
-                                </Link>
+                                <Flip left key={id}>
+                                    <Link to={`/entree/${id}`} 
+                                          className="lien">
+                                        <div className="card">
+                                            {name}
+                                        </div>
+                                    </Link>
+                                </Flip>
                             ))}
                     </div>
                 </div>

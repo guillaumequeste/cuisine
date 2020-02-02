@@ -4,6 +4,7 @@ import Header from '../Header'
 import Footer from '../Footer'
 import plats from '../../data/plats.json'
 import '../Liste.css'
+import Flip from 'react-reveal/Flip'
 
 class Plats extends Component {
     state = {
@@ -34,12 +35,14 @@ class Plats extends Component {
                     </div>
                     <div className="bodyListe2">
                             {filteredPlats.map(({id, name}) => (
-                                <Link to={`/plat/${id}`} 
-                                        key={id} className="lien">
-                                    <div className="card">
-                                        {name}
-                                    </div>
-                                </Link>
+                                <Flip left key={id}>
+                                    <Link to={`/plat/${id}`} 
+                                          className="lien">
+                                        <div className="card">
+                                            {name}
+                                        </div>
+                                    </Link>
+                                </Flip>
                             ))}
                     </div>
                 </div>
