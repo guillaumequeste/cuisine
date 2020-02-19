@@ -1,5 +1,12 @@
 [{
     "id": "1600",
-    "name": "Pancakes"
+    "titre": "Pancakes",
+    "nbPersonnes": "5 pancakes",
+    "ingredients": "130g de préparation Aunt Jemima, 180mL de lait, 15mL d'huile neutre, 1 oeuf",
+    "tempsTotal": "10 min",
+    "tempsPreparation": "7 min",
+    "tempsCuisson": "3 min",
+    "preparation": "1. Mélanger le tout, sans battre, jusqu'à disparition des grumeaux. \n 2. Laisser reposer et s'épaissir la pâte pendant 1-2 minutes. \n 3. Faire chauffer une poêle à feu moyen doux (ou plaque électrique à 190°C). \n 4. Verser doucement la pâte dans la poêle chaude légèrement graissée pour former un pancake. \n 5. Faire cuire 1 minute 30 environ de chaque côté (retourner lorsque des bulles se forment et que la face prend une couleur marron-dorée).",
+    "image": "pancakes.jpeg"
 }
 ]

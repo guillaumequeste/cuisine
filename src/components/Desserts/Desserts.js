@@ -13,7 +13,7 @@ class Desserts extends Component {
     renderFilm = dessert =>{
         return (
             <div>
-                { dessert.name }
+                { dessert.titre }
             </div>
         )
     }
@@ -24,7 +24,7 @@ class Desserts extends Component {
     render () {
         const {search} = this.state;
         const filteredDesserts = desserts.filter( dessert =>{
-                return dessert.name.toLowerCase().indexOf( search.toLowerCase() ) !== -1
+                return dessert.titre.toLowerCase().indexOf( search.toLowerCase() ) !== -1
         })
         return (
             <div>
@@ -34,12 +34,12 @@ class Desserts extends Component {
                         <input placeholder="Rechercher une recette" onChange={this.onchange} className="inputSearchBar"/>
                     </div>
                     <div className="bodyListe2">
-                        {filteredDesserts.map(({id, name}) => (
+                        {filteredDesserts.map(({id, titre}) => (
                             <Flip left key={id}>
                                 <Link to={`/dessert/${id}`} 
                                       className="lien">
                                     <div className="card">
-                                        {name}
+                                        {titre}
                                     </div>
                                 </Link>
                             </Flip>

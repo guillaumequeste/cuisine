@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 import Entrees from './components/Entrees/Entrees'
 import EntreeDetail from './components/EntreeDetail/EntreeDetail'
 import Plats from './components/Plats/Plats'
@@ -25,7 +25,8 @@ const Root = () => (
             <Route path='/desserts' component={Desserts}/>
             <Route path='/dessert/:id' component={DessertDetail}/>
             <Route path='/contact' component={Contact}/>
-            <Route path="*" component={ErrorNotFound}/>
+            <Route path="/notfound" component={ErrorNotFound}/>
+            <Redirect to="/notfound"/>
         </Switch>
     </Router>
 )
