@@ -7,6 +7,12 @@
     display: flex;
 }
 
+@media screen and (max-width: 1025px) {
+    .bodyFooter {
+        display: none;
+    }
+}
+
 .itemsHeader {
     color: white;
     margin-left: 5%;
