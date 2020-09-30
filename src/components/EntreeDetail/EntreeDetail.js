@@ -6,36 +6,26 @@ import Flip from 'react-reveal/Flip'
 
 
 const entrees = {
-    100: { 
-       titre: "entree 1",
+    700: { 
+        titre: "Gâteau de crêpes",
+        nbPersonnes: "4",
+        ingredients: ["- crêpes", <br />, "- mayonnaise", <br />, "- tomates", <br />, "- thon", <br />, "- crabe", <br />, "- truite fumée", <br />, "- saumon"],
+        tempsTotal: "20 min",
+        tempsPreparation: "20 min",
+        tempsCuisson: "-",
+        preparation: ["1. Dans un grand plat, déposer une crêpe et mettre du thon et de la mayonnaise.", <br />, <br />, "2. Déposer une crêpe et mettre du crabe et de la mayonnaise.", <br />, <br />, "3. Déposer une crêpe et mettre de la truite fumée.", <br />, <br />, "4. Déposer une crêpe et mettre du saumon", <br />, <br />, "5. Déposer une crêpe et mettre des morceaux de tomates et du thon.", <br />, <br />, "6. Déposer une crêpe afin de recouvrir le gâteau."],
+        image: "gateau_crepes.jpg",
+      },
+    780: { 
+       titre: "Guacamole",
        nbPersonnes: "4",
-       ingredients: "tomate, citron, crêpes",
-       tempsTotal: "30 min",
-       tempsPreparation: "20 min",
-       tempsCuisson: "10 min",
-       preparation: "première, deuxième, troisième",
-       image: "entree1.jpg",
-     },
-     200: { 
-         titre: "entree 2",
-         nbPersonnes: "4",
-         ingredients: "tomate, citron, crêpes",
-         tempsTotal: "30 min",
-         tempsPreparation: "20 min",
-         tempsCuisson: "10 min",
-         preparation: "première, deuxième, troisième",
-         image: "entree1.jpg",
-       },
-     300: { 
-         titre: "entree 3",
-         nbPersonnes: "4",
-         ingredients: "tomate, citron, crêpes",
-         tempsTotal: "30 min",
-         tempsPreparation: "20 min",
-         tempsCuisson: "10 min",
-         preparation: "première, deuxième, troisième",
-         image: "entree1.jpg",
-       }
+       ingredients: ["- 4 avocats", <br />, "- 1 sachet mélange d'épices pour guacamole"],
+       tempsTotal: "5 min",
+       tempsPreparation: "5 min",
+       tempsCuisson: "-",
+       preparation: ["1. Enlever la peau des avocats et le noyau.", <br />, <br />, "2. Ecraser les avocats à l'aide d'une fourchette.", <br />, <br />, "3. Dans un plat, mélanger l'avocat et le mélange d'épices.", <br />, <br />, "4. Mettre au frais."],
+       image: "guacamole.jpg",
+     }
  }
 
 /* J'aimerais tout mettre dans le fichier films.json et faire appel à lui dans la class ci-dessous au lieu d'appeler const films au-dessus */ 

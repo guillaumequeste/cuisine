@@ -6,14 +6,24 @@ import Flip from 'react-reveal/Flip'
 
 
 const desserts = {
+    300: { 
+        titre: "Crêpes",
+        nbPersonnes: "5 pancakes",
+        ingredients: ["- 250g de farine", <br />, "- 1 pincée de sel", <br />, "- 3 oeufs", <br />, "- 10 cL d'huile", <br />, "- 1/2 L de lait"],
+        tempsTotal: "5 min",
+        tempsPreparation: "5 min",
+        tempsCuisson: "-",
+        preparation: ["1. Mélanger le tout afin d'obtenir un mélange fluide.", <br />, <br />, "2. Laisser reposer 2 heures."],
+        image: "crepes.jpg",
+      },
     1600: { 
        titre: "Pancakes",
        nbPersonnes: "5 pancakes",
-       ingredients: "130g de préparation Aunt Jemima, 180mL de lait, 15mL d'huile neutre, 1 oeuf",
+       ingredients: ["- 130g de préparation Aunt Jemima", <br />, "- 180mL de lait", <br />, "- 15mL d'huile neutre", <br />, "- 1 oeuf"],
        tempsTotal: "10 min",
        tempsPreparation: "7 min",
        tempsCuisson: "3 min",
-       preparation: "1. Mélanger le tout, sans battre, jusqu'à disparition des grumeaux. \n 2. Laisser reposer et s'épaissir la pâte pendant 1-2 minutes. \n 3. Faire chauffer une poêle à feu moyen doux (ou plaque électrique à 190°C). \n 4. Verser doucement la pâte dans la poêle chaude légèrement graissée pour former un pancake. \n 5. Faire cuire 1 minute 30 environ de chaque côté (retourner lorsque des bulles se forment et que la face prend une couleur marron-dorée).",
+       preparation: ["1. Mélanger le tout, sans battre, jusqu'à disparition des grumeaux.", <br />, <br />, "2. Laisser reposer et s'épaissir la pâte pendant 1-2 minutes.", <br />, <br />, "3. Faire chauffer une poêle à feu moyen doux (ou plaque électrique à 190°C).", <br />, <br />, "4. Verser doucement la pâte dans la poêle chaude légèrement graissée pour former un pancake.", <br />, <br />, "5. Faire cuire 1 minute 30 environ de chaque côté (retourner lorsque des bulles se forment et que la face prend une couleur marron-dorée)."],
        image: "pancakes.jpeg",
      }
  }
