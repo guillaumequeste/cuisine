@@ -7,8 +7,18 @@ import Flip from 'react-reveal/Flip'
 
 const desserts = {
     300: { 
+        titre: "Caramel",
+        nbPersonnes: "2",
+        ingredients: ["- 125 de sucre", <br />, "- 3 cuillères à soupe d'eau", <br />, "- 10cL de crème liquide", <br />, "- 25g de beurre salé"],
+        tempsTotal: "5 min",
+        tempsPreparation: "5 min",
+        tempsCuisson: "-",
+        preparation: ["1. Dans une casserole, mettre le sucre et l'eau. Chauffer jusqu'à obtention d'un caramel.", <br />, <br />, "2. Hors du feu, rajouter la crème bouillante.", <br />, <br />, "3. Remuer, mettre sur feu doux et mettre le beurre.", <br />, <br />, "4. Quand le caramel est lié, cessez de remuer."],
+        image: "caramel.jpg",
+      },
+    380: { 
         titre: "Crêpes",
-        nbPersonnes: "5 pancakes",
+        nbPersonnes: "4",
         ingredients: ["- 250g de farine", <br />, "- 1 pincée de sel", <br />, "- 3 oeufs", <br />, "- 10 cL d'huile", <br />, "- 1/2 L de lait"],
         tempsTotal: "5 min",
         tempsPreparation: "5 min",
