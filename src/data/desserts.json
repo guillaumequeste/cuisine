@@ -9,5 +9,13 @@
 {
     "id": "1600",
     "name": "Pancakes"
+},
+{
+    "id": "2000",
+    "name": "Tarte aux pommes"
+},
+{
+    "id": "2500",
+    "name": "Tarte Tatin"
 }
 ]
