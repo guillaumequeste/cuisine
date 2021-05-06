@@ -25,7 +25,27 @@ const entrees = {
        tempsCuisson: "-",
        preparation: ["1. Enlever la peau des avocats et le noyau.", <br />, <br />, "2. Ecraser les avocats à l'aide d'une fourchette.", <br />, <br />, "3. Dans un plat, mélanger l'avocat et le mélange d'épices.", <br />, <br />, "4. Mettre au frais."],
        image: "guacamole.jpg",
-     }
+     },
+     1300: { 
+        titre: "Mayonnaise maison",
+        nbPersonnes: "4",
+        ingredients: ["- 2 jaunes d'oeufs", <br />, "- 1 cuillère à soupe de moutarde", <br />, "- sel", <br />, "- poivre", <br />, "- huile", <br />, "- vinaigre"],
+        tempsTotal: "15 min",
+        tempsPreparation: "15 min",
+        tempsCuisson: "-",
+        preparation: ["1. Dans un saladier, mettre les jaunes d'oeufs, la moutarde, le sel, le poivre et commencer à mixer.", <br />, <br />, "2. Tout en mixant, ajouter un filet d'huile", <br />, <br />, "3. Puis ajouter un filet de vinaigre.", <br />, <br />, "4. Ajouter de nouveau un filet d'huile de façon à obtenir une mayonnaise consistante."],
+        image: "mayonnaise.jpg",
+      },
+      1500: { 
+        titre: "Oeufs au saumon",
+        nbPersonnes: "4",
+        ingredients: ["- 6 oeufs durs", <br />, "- 1 boîte de saumon", <br />, "- mayonnaise maison", <br />, "- sel", <br />, "- poivre"],
+        tempsTotal: "15 min",
+        tempsPreparation: "15 min",
+        tempsCuisson: "-",
+        preparation: ["1. La veille, dans une casserole, placer 6 oeufs, recouvrir d'eau froide, faire chauffer et laisser 10 minutes à ébullition de façon à obtenir 6 oeufs durs.", <br />, <br />, "2. Enlever les coquilles.", <br />, <br />, "3. Couper les oeufs en 2.", <br />, <br />, "4. Enlever les jaunes et les mettre de côté.", <br />, <br />, "5. Mettre de côté également les 2 1/2 blancs les moins appétissants.", <br />, <br />, "6. Ecraser les jaunes (et les 2 1/2 blancs) avec une fourchette.", <br />, <br />, "7. Emietter le saumon, ajouter la mayonnaise, le sel et le poivre et mélanger.", <br />, <br />, "8. Remplir les blancs."],
+        image: "oeufs_saumon.jpg",
+      }
  }
 
 /* J'aimerais tout mettre dans le fichier films.json et faire appel à lui dans la class ci-dessous au lieu d'appeler const films au-dessus */ 
