@@ -38,7 +38,7 @@ const plats = {
     },
     1650: { 
         titre: "Pizza",
-        nbPersonnes: "4",
+        nbPersonnes: "3",
         ingredients: ["Pâte :", <br />, "- 60g de farine de blé complète T45", <br />, "- 50g de fromage blanc 0% (fonctionne aussi avec du yaourt)", <br />, "- 10mL d'eau", <br />, "- 2 cuillères à café de levure chimique", <br />, "- Optionnel : herbes, épices dans votre pâte", <br />, <br />, "Au choix :", <br />, "- purée ou coulis de tomates", <br />, "- oignons frits", <br />,"- gruyère", <br />, "- crème fraîche", <br />, "- lardons", <br />, "- oeuf coupé en lamelles"],
         tempsTotal: "25 min",
         tempsPreparation: "12 min",
