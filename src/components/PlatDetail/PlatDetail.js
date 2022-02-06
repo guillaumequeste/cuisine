@@ -39,11 +39,11 @@ const plats = {
     1650: { 
         titre: "Pizza",
         nbPersonnes: "3",
-        ingredients: ["Pâte :", <br />, "- 60g de farine de blé complète T45", <br />, "- 50g de fromage blanc 0% (fonctionne aussi avec du yaourt)", <br />, "- 10mL d'eau", <br />, "- 2 cuillères à café de levure chimique", <br />, "- Optionnel : herbes, épices dans votre pâte", <br />, <br />, "Au choix :", <br />, "- purée ou coulis de tomates", <br />, "- oignons frits", <br />,"- gruyère", <br />, "- crème fraîche", <br />, "- lardons", <br />, "- oeuf coupé en lamelles"],
+        ingredients: ["Pâte (pour 2 pizzas) :", <br />, "- 180g de farine de blé complète T45", <br />, "- 150g de fromage blanc 0% (ou 2 yaourts)", <br />, "- 30mL d'eau", <br />, "- 6 cuillères à café de levure chimique", <br />, "- 3 oeufs coupés en lamelles", <br />, "- 200g de lardons", <br />, "- purée ou coulis de tomates", <br />, "- oignons frits", <br />,"- gruyère râpé", <br />, "- crème fraîche"],
         tempsTotal: "25 min",
         tempsPreparation: "12 min",
         tempsCuisson: "13 min",
-        preparation: ["1. Mélanger la farine, le fromage blanc, l'eau et la levure afin d'obtenir une pâte qui permette de faire une boule (si besoin rajouter de la farine).", <br />, <br />, "2. Etaler la pâte, badigeonner avec la purée ou le coulis de tomates, déposer les oignons frits, le gruyère, la crème fraîche et les lardons.", <br />, <br />, "3. Faire cuire 13 minutes à 210°C."],
+        preparation: ["1. Mélanger la farine, le fromage blanc, l'eau et la levure afin d'obtenir une pâte qui permette de faire une boule (si besoin rajouter de la farine).", <br />, <br />, "2. Couper la boule en 2 pour faire 2 pizzas.", <br />, < br />,  "3. Etaler la pâte, badigeonner avec la purée ou le coulis de tomates, déposer les lardons, les oeufs, les oignons frits, le gruyère et la crème fraîche.", <br />, <br />, "4. Faire cuire 13 minutes à 210°C."],
         image: "pizza.jpg",
       },
     1680: { 
